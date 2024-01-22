@@ -1,8 +1,8 @@
-﻿using System;
-using System.IdentityModel.Tokens.Jwt;
+﻿using System.IdentityModel.Tokens.Jwt;
 using System.Security.Claims;
 using System.Text;
 using AgendaxApi.Entities;
+using AgendaxApi.Interfaces;
 using Microsoft.IdentityModel.Tokens;
 
 namespace AgendaxApi.Servises

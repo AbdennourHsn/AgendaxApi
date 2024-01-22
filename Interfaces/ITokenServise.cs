@@ -1,7 +1,7 @@
 ﻿using System;
 using AgendaxApi.Entities;
 
-namespace AgendaxApi
+namespace AgendaxApi.Interfaces
 {
 	public interface ITokenServise
 	{
