@@ -1,1 +1,3 @@
-## Agendax Restfull API Asp.Net 
+## Agendax ASP.NET Core API Endpoints
+
+
