@@ -16,3 +16,7 @@ This API ensures seamless communication with a PostgreSQL database hosted on the
 
 
 ![PostgreSQL_logo_PNG3](https://github.com/AbdennourHsn/AgendaxApi/assets/119530347/da4c0342-c07c-45d2-ae86-93eb002ac7a6)
+
+**Note**
+
+This project is currently in development, with ongoing efforts to enhance its features and functionality. Regular updates and improvements are anticipated, and the latest developments will be documented and shared within the designated Git repository.
