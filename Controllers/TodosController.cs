@@ -87,7 +87,6 @@ namespace AgendaxApi.Controllers
                     return NotFound("Todo not found");
                 }
 
-                // Update todo properties based on the provided data
                 todo.Title = updateTodoDto.Title;
                 todo.Description = updateTodoDto.Description;
                 todo.Date = updateTodoDto.Date;
@@ -95,7 +94,6 @@ namespace AgendaxApi.Controllers
                 todo.State = updateTodoDto.State;
                 todo.Color = updateTodoDto.Color;
 
-                // Save the changes to the database
                 await _context.SaveChangesAsync();
 
                 return Ok("Todo updated successfully");

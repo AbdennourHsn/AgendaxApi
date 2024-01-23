@@ -51,7 +51,6 @@ namespace AgendaxApi.Controllers
         [HttpPost]
         public async Task<ActionResult<Project>> CreateProject(Project project)
         {
-            // Check if the associated user with UserId exists
             var user = await _context.Users.FindAsync(project.UserId);
 
             if (user == null)

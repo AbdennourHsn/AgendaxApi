@@ -4,6 +4,7 @@ using System.Text;
 using AgendaxApi.Data;
 using AgendaxApi.DTOs;
 using AgendaxApi.Entities;
+using AgendaxApi.Interfaces;
 using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
